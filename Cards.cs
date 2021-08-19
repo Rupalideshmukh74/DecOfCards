@@ -61,7 +61,7 @@ namespace Dec_of_cards
             //Display Method 
             Display(playersCards);
         }
-        //Display Cards Of each Players
+        
         public void Display(string[,] playersCards)
         {
             for (int i = 0; i < players.Length; i++)
